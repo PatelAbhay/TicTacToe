@@ -1,0 +1,41 @@
+.menu-container{
+    background: #0DA192;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+h1 {color: #E1A87A;}
+
+span {color: #9F6B41;}
+
+table {border-spacing: 0;}
+
+td {padding: 0px;}
+
+button{
+    background-color: white;
+    color: white;
+    padding: 16px 5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.inactiveButton:hover {background-color: #e7e7e7;}
+
+.activeButton {
+    background-color: #c7c7c7;
+    border: 2px solid #c7c7c7;
+}
+
+.button1 {border-radius: 1rem 0rem 0rem 1rem;}
+
+.button2 {border-radius: 0rem 1rem 1rem 0rem;}  

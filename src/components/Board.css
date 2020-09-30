@@ -1,0 +1,33 @@
+.board-grid {
+    background: #0DA192;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-left: calc(20px + 10rem);
+    border-radius: 1rem;
+}
+  
+.board-cell {
+    background: #14BDAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+}
+
+.playerX{
+    font-size: 4em; 
+    color: #E1A87A;
+    font-weight: bold;
+}
+
+.playerO{
+    font-size: 5em; 
+    color: #9F6B41;
+    font-weight: bolder;
+}
