@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-[Demo](https://patelabhay.github.io/TicTacToe/)
+[Demo Here](https://patelabhay.github.io/TicTacToe/)
 
 ## About
 This is my first ever React project where I created a two player version of Tic-Tac-Toe. There is also the 
